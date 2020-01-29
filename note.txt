@@ -1,0 +1,24 @@
+BigO(how scalable is our code)
+--Big O is how we measure the efficiency of our algorithm.
+--To measure algorithmic efficiency.
+--when we grow bigger with our input, how much operations or steps does it take to arrive at 
+our output.
+--Big O(Run time) how long does it take to run
+-- It is the worst case scenario of an algorithm.
+i.e the longest posible time or operations that could occur as a result of an input.
+--As input increases, how much operations does the algorithm does.
+Scalability = size of inputs / number of operations
+
+Big O of n --- O(n) Linear time -------- as input size increases, number of operations increases linearly.
+Big O of 1 --- O(1) Constant time --- one number  of step/operation as the input size increases
+Big O of n2 --- O(n^2) Quadratic time --- as input size increases, number of operations increases exponentially.
+
+Rules to follow to determine Big O.
+--Think of Big O(worst case scenario)
+--Remove or drop the Constant
+--Check usage of different terms for inputs(i.e different input should have different variables)
+add(+) for non nested operations,multiply(*) for nested operations
+
+--Keep the dominants operation.
+Time complexity -- how long it takes the algorithm to run
+Space complexity --- is the memory that is required  to run it.
