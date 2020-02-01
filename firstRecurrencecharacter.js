@@ -53,7 +53,7 @@ function firstRecurringCharacter3(input) {
   let output = 0
   while(output <= input.length){
     if(!map[input[output]]){
-      map[input[output]] =  true;
+      map[input[output]] =  true;R
     }else{
       return input[output];
     }
